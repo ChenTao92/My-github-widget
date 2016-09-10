@@ -1,0 +1,111 @@
+body {
+  font-family: "Helvetica";
+  font-size: 16px;
+}
+
+main {
+  width: 400px;
+  height: 540px;
+  margin: auto;
+  border: solid 1px #ccc;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.top .person {
+  padding: 10px 20px;
+}
+
+.top .person > div {
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+}
+
+.top .person > div >p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.top .person > div >p:nth-child(2) {
+  font-size: 14px;
+  color: lightblue;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.top .person > div >p:nth-child(3) {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.top .person > img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.top .repos {
+  margin-top: 20px;
+  font-size: 0;
+}
+
+.top .repos > div {
+  font-size: 16px;
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.top .repos > div > div:first-child {
+  margin-bottom: 10px;
+  color: #4078C0;
+}
+
+#buttom > p:first-child {
+  text-align: center;
+}
+
+.repo {
+  margin:35px 0px;
+  font-size:0;
+}
+
+.repo > div {
+  font-size: 16px;
+  display: inline-block;
+  width: 33.3%;
+  padding-left:16px;
+  box-sizing:border-box;
+}
+
+.repo > div:first-child {
+  color: #4078C0;
+}
+
+.repo > div:nth-child(2) {
+  padding-left: 52px;
+}
+
+.repo > div:nth-child(3) {
+  padding-left: 52px;
+}
+
+#follow > button {
+  width: 20%;
+  height: 26px;
+  background-color: #ddd;
+  border: none;
+  color: #4078C0;
+  font-size: 15px;
+  margin-left: 16px;
+  margin-right: 60px;
+}
+
+#follow > p {
+  display: inline-block;
+}
