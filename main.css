@@ -48,6 +48,11 @@ main {
   border-radius: 50%;
 }
 
+.fa {
+  font-size: 12px;
+}
+
+
 .top .repos {
   margin-top: 20px;
   font-size: 0;
