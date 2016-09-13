@@ -40,6 +40,7 @@ function getData(name) {
       secondReady = true
       if(firstReady) {
         $("main").css("display", "block")
+        $("body").css("background-image", "url(./bgpicture.jpg)")
       }
     }
   })
