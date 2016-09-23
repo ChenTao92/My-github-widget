@@ -15,6 +15,7 @@ function getData(name) {
 
       firstReady = true
       if(secondReady) {
+        $("body").css("background-image", "url(./bgpicture.jpg)")
         $("main").css("display", "block")
       }
     }
@@ -39,8 +40,8 @@ function getData(name) {
 
       secondReady = true
       if(firstReady) {
-        $("main").css("display", "block")
         $("body").css("background-image", "url(./bgpicture.jpg)")
+        $("main").css("display", "block")
       }
     }
   })
