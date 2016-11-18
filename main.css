@@ -1,18 +1,21 @@
 body {
   font-family: "Comic Sans MS";
   font-size: 16px;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
 } 
 
 main {
+  position: absolute;
   width: 400px;
-  height: 530px;
-  margin: auto;
-  border: solid 3px #ccc;
-  position: fixed;
+  height: 540px;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  margin: auto;
+  border: solid 3px #ccc;
   display: none;
   background-color: #FFF;
   opacity: 0.9;
@@ -80,7 +83,7 @@ main {
 }
 
 .repo {
-  margin:35px 0px;
+  margin:25px 0px;
   font-size:0;
 }
 
