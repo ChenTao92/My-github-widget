@@ -47,4 +47,4 @@ function getData(name) {
   })
 }
 
-getData("ChenTao92")
+getData("taylor-chan")
